@@ -1,0 +1,38 @@
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: start;
+}
+
+.about-text p {
+    margin-bottom: 1rem;
+    color: var(--text-light);
+}
+
+.about-skills h3 {
+    margin-bottom: 1rem;
+    color: var(--primary);
+}
+
+.about-skills ul {
+    list-style: none;
+}
+
+.about-skills li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--text);
+}
+
+.about-skills li::before {
+    content: "▹";
+    color: var(--primary);
+    margin-right: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        grid-template-columns: 1fr;
+    }
+}
