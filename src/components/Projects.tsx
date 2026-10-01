@@ -4,25 +4,25 @@ import '../Projects.css';
 const projects = [
     {
         title: 'ALIN MOBILE',
-        desc: 'Կարճ նկարագրություն, թե ինչ է անում այս նախագիծը։',
-        tech: ['React', 'TypeScript', 'CSS'],
-        link: '#',
+        desc: 'Alin Mobile — տեխնիկայի օնլայն խանութի full-stack վեբ նախագիծ՝ ժամանակակից, responsive և հարմարավետ ինտերֆեյսով։ Նախագիծը ներառում է ապրանքների կատալոգ, որոնում և ֆիլտրում, բազմալեզու բովանդակություն, օգտատիրոջ և ադմինիստրատորի գործառույթներ, ինչպես նաև ապրանքների կառավարման համակարգ։',
+        tech: ['React', 'TypeScript', 'Material UI', 'React Router', 'TanStack Query', 'Axios', 'Framer Motion', 'i18next', 'Node.js', 'Express.js', 'MySQL', 'JWT', 'Passport.js', 'Google OAuth', 'Cloudinary', 'Nodemailer', 'Swagger'],
+        link: 'https://alinmobile.am/',
         color: '#6c63ff',
     },
     {
         title: 'CAKE & CREAM',
-        desc: 'Մեկ այլ նախագիծ, որը ցույց է տալիս քո հմտությունները։',
-        tech: ['Node.js', 'Express', 'MongoDB'],
-        link: '#',
+        desc: 'Cake & Cream — տորթերի և քաղցրավենիքի պատվերի full-stack վեբ նախագիծ՝ ժամանակակից, responsive և անիմացիոն ինտերֆեյսով։ Նախագիծը ներառում է ապրանքների կատալոգ, կատեգորիաներ, հատուկ պատվերի ձևավորում, զեղչերի բաժին, պատվերի համակարգ և ադմինիստրատիվ կառավարման հնարավորություն։',
+        tech: ['React', 'TypeScript', 'Material UI', 'Node.js', 'Express.js', 'PostgreSQL', 'Axios', 'React Query', 'React Hook Form', 'Framer Motion', 'JWT', 'Cloudinary'],
+        link: 'https://cakeandcream.shop/',
         color: '#ff6b6b',
     },
-    {
-        title: 'Նախագիծ 3',
-        desc: 'Եվս մեկ հետաքրքիր նախագիծ։',
-        tech: ['Next.js', 'Tailwind', 'Prisma'],
-        link: '#',
-        color: '#4ecdc4',
-    },
+    // {
+    //     title: 'Նախագիծ 3',
+    //     desc: 'Եվս մեկ հետաքրքիր նախագիծ։',
+    //     tech: ['Next.js', 'Tailwind', 'Prisma'],
+    //     link: '#',
+    //     color: '#4ecdc4',
+    // },
 ];
 
 const Projects = () => {

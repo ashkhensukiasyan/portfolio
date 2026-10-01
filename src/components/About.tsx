@@ -23,13 +23,27 @@ const About = () => {
                     transition={{ duration: 0.8 }}
                 >
                     <p>
-                        Ես սովորում եմ վեբ ծրագրավորում, հետաքրքրված եմ React, TypeScript և
-                        ժամանակակից CSS տեխնոլոգիաներով։ Սիրում եմ ստեղծել մաքուր,
-                        հասանելի (accessible) և արագ էջեր։
+                        Ես Աշխենն եմ՝ Junior Web Developer, հետաքրքրված եմ
+                        ժամանակակից և user-friendly վեբ կայքերի ստեղծմամբ։
+                        Վեբ ծրագրավորման ընթացքում սովորել և աշխատել եմ HTML,
+                        CSS, Bootstrap, JavaScript, jQuery, PHP, MySQL, OOP,
+                        MVC, React.js, Redux և TypeScript տեխնոլոգիաներով։
                     </p>
+
                     <p>
-                        Ներկայումս աշխատում եմ անձնական նախագծերի վրա և ուսումնասիրում
-                        Next.js, Tailwind CSS:
+                        Անձնական նախագծերում փորձում եմ համատեղել ծրագրավորումը,
+                        դիզայնը և օգտագործողի փորձը՝ ստեղծելով responsive,
+                        ժամանակակից և ֆունկցիոնալ վեբ կայքեր։
+                        Alin Mobile և Cake & Cream նախագծերում կիրառել եմ
+                        React, TypeScript, JavaScript, Material UI, Axios,
+                        Redux / RTK Query, Node.js, Express, տվյալների բազաներ
+                        և REST API-ներ։
+                    </p>
+
+                    <p>
+                        Ներկայումս շարունակում եմ զարգացնել գիտելիքներս և
+                        ուսումնասիրում եմ նոր տեխնոլոգիաներ՝ հատկապես Next.js
+                        և Tailwind CSS ուղղություններով։
                     </p>
                 </motion.div>
 
@@ -41,14 +55,30 @@ const About = () => {
                     transition={{ duration: 0.8, delay: 0.2 }}
                 >
                     <h3>Հմտություններ</h3>
+
                     <ul>
-                        {['HTML / CSS / JavaScript', 'React & TypeScript', 'Git & GitHub', 'Responsive Design'].map((skill, i) => (
+                        {[
+                            'HTML / CSS / Bootstrap',
+                            'JavaScript / jQuery',
+                            'PHP / MySQL / OOP / MVC',
+                            'React / TypeScript',
+                            'Redux / RTK Query',
+                            'Node.js / Express',
+                            'Material UI / Axios',
+                            'REST API',
+                            'MySQL / PostgreSQL',
+                            'Git / GitHub',
+                            'Responsive Design'
+                        ].map((skill, i) => (
                             <motion.li
                                 key={skill}
                                 initial={{ opacity: 0, x: 20 }}
                                 whileInView={{ opacity: 1, x: 0 }}
                                 viewport={{ once: true }}
-                                transition={{ delay: 0.1 * i, duration: 0.5 }}
+                                transition={{
+                                    delay: 0.1 * i,
+                                    duration: 0.5
+                                }}
                             >
                                 {skill}
                             </motion.li>
